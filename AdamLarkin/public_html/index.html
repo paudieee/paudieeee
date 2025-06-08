@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Adam Larkin Construction specializes in agricultural and industrial building projects in Togher, Dunleer, Co. Louth.">
+  <meta name="keywords" content="construction, welding, fabrication, agricultural buildings, industrial buildings, Dunleer, Louth">
+  <meta property="og:title" content="Adam Larkin Construction">
+  <meta property="og:description" content="High-quality construction services for agricultural and industrial projects in Co. Louth.">
+  <meta property="og:image" content="https://i.imgur.com/LwTwcqC.jpeg">
+  <link rel="icon" href="https://i.imgur.com/7PyHgFT.png">
+  <title>Adam Larkin Construction</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" as="style" onload="this.rel='stylesheet'">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  </noscript>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Adam Larkin Construction",
+    "telephone": "0863749747",
+    "email": "A.larkinconstruction@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dunleer",
+      "addressRegion": "Co. Louth",
+      "addressCountry": "IE"
+    },
+    "url": "https://adamlarkinconstructin.com",
+    "image": "https://i.imgur.com/LwTwcqC.jpeg",
+    "description": "Specializing in agricultural and industrial building projects in Togher, Dunleer, Co. Louth."
+  }
+  </script>
+  <style>
+    *,::after,::before{box-sizing:border-box;}
+    html{font-family:'Roboto', sans-serif;line-height:1.6;}
+    body{margin:0;padding:0;background-color:#f3f4f6;} /* Updated to Soft Neutral Gray */
+    h1,h2,h3{margin:0;letter-spacing:0.02em;}
+    p{margin:0 0 1rem;font-weight:300;}
+    img{max-width:100%;height:auto;}
+    .container{width:100%;max-width:1280px;margin:0 auto;padding:0 1.5rem;}
+    .bg-primary{background-color:#1e40af;}
+    .bg-secondary{background-color:#e5e7eb;} /* Updated to darker gray */
+    .text-primary{color:#1e40af;}
+    .text-secondary{color:#4b5563;font-weight:300;}
+    .text-white{color:#fff;}
+    .text-4xl{font-size:3rem;line-height:3.5rem;}
+    .text-3xl{font-size:2rem;line-height:2.5rem;}
+    .text-2xl{font-size:1.5rem;line-height:2rem;}
+    .font-bold{font-weight:700;}
+    .font-semibold{font-weight:600;}
+    .text-center{text-align:center;}
+    .py-6{padding:1.5rem 0;}
+    .py-12{padding:3rem 0;}
+    .p-6{padding:1.5rem;}
+    .mt-4{margin-top:1rem;}
+    .mb-8{margin-bottom:2rem;}
+    .mb-12{margin-bottom:3rem;}
+    .flex{display:flex;}
+    .flex-col{flex-direction:column;}
+    .items-center{align-items:center;}
+    .justify-center{justify-content:center;}
+    .justify-between{justify-content:space-between;}
+    .gap-6{gap:1.5rem;}
+    .rounded-lg{border-radius:0.5rem;}
+    .shadow-md{box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+    .shadow-lg{box-shadow:0 10px 15px rgba(0,0,0,0.1);}
+
+    /* Navigation */
+    nav{position:sticky;top:0;background-color:#fff;z-index:10;border-bottom:1px solid #e2e8f0;transition:box-shadow 0.3s ease;}
+    nav.scrolled{box-shadow:0 2px 4px rgba(0,0,0,0.1);}
+    nav a{transition:color 0.3s ease, transform 0.3s ease;}
+    nav a:hover, nav a:focus{color:#1e40af;transform:translateY(-2px);}
+    nav a:focus{outline:2px solid #1e40af;outline-offset:2px;}
+    .hamburger{font-size:1.5rem;background:none;border:none;cursor:pointer;display:none;transition:transform 0.3s ease;}
+    .hamburger.active::before{content:'✕';transform:rotate(180deg);}
+    .nav-links{display:flex;gap:1.5rem;}
+    @media (max-width:767px) {
+      .hamburger{display:block;}
+      .nav-links{position:absolute;top:60px;left:0;background:#fff;width:100%;flex-direction:column;padding:1rem;display:none;}
+      .nav-links.active{display:flex;}
+    }
+
+    /* Hero Section */
+    .hero{background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('https://i.imgur.com/LwTwcqC.jpeg') no-repeat center/cover;min-height:500px;display:flex;align-items:center;justify-content:center;color:#fff;text-align:center;padding:2rem;position:relative;background-attachment:fixed;}
+    .hero h1{text-shadow:0 2px 4px rgba(0,0,0,0.5);animation:fadeInUp 1s ease-out;}
+    .hero p{font-size:1.25rem;text-shadow:0 1px 2px rgba(0,0,0,0.3);animation:fadeInUp 1.2s ease-out;}
+
+    /* Project Cards */
+    .project-grid{display:grid;grid-template-columns:1fr;gap:1.5rem;}
+    @media (min-width:768px) {
+      .project-grid{grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));}
+    }
+    .project-card{background:#fff;border-radius:0.5rem;overflow:hidden;transition:transform 0.3s ease, box-shadow 0.3s ease;display:flex;flex-direction:column;min-height:450px;}
+    .project-card:hover{transform:translateY(-5px);box-shadow:0 15px 25px rgba(0,0,0,0.15);}
+    .project-card:hover .project-image{transform:scale(1.05);}
+    .project-image{aspect-ratio:4/3;object-fit:cover;width:100%;height:250px;border-radius:0.5rem 0.5rem 0 0;transition:transform 0.3s ease;}
+    .project-content{padding:1.5rem;flex:1;}
+    .badge{display:inline-block;background:#1e40af;color:#fff;padding:0.25rem 0.5rem;border-radius:0.25rem;font-size:0.875rem;margin-bottom:0.5rem;}
+    .fade-in{opacity:0;transform:translateY(20px);transition:opacity 0.6s ease-out, transform 0.6s ease-out;}
+    .fade-in.visible{opacity:1;transform:translateY(0);}
+
+    /* Form */
+    .form-input, .form-textarea{padding:0.75rem;border:1px solid #e2e8f0;border-radius:0.5rem;width:100%;transition:border-color 0.3s ease, box-shadow 0.3s ease;}
+    .form-input:focus, .form-textarea:focus{border-color:#1e40af;box-shadow:0 0 0 3px rgba(30, 64, 175, 0.2);outline:none;}
+    .form-textarea{resize:vertical;min-height:100px;}
+
+    /* Contact Section */
+    #contact{background:linear-gradient(to bottom, #f3f4f6, #d1d5db);} /* Updated gradient */
+
+    /* Footer */
+    .footer{background:#1e40af;color:#fff;padding:2rem 0;}
+    .footer a{color:#93c5fd;transition:color 0.3s ease;}
+    .footer a:hover, .footer a:focus{color:#dbeafe;}
+    .footer a:focus{outline:2px solid #93c5fd;outline-offset:2px;}
+    .social-btn{display:inline-block;margin:0 0.5rem;transition:transform 0.3s ease;}
+    .social-btn:hover{transform:scale(1.1);}
+    .social-icon{width:24px;height:24px;vertical-align:middle;margin-left:0.5rem;}
+    .footer-divider{border:0;height:1px;background:#93c5fd;margin:1.5rem auto;width:50%;}
+    .btn{background:#1e40af;color:#fff;padding:1rem 2rem;border-radius:0.5rem;display:inline-block;text-decoration:none;transition:background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;font-weight:600;}
+    .btn:hover, .btn:focus{background:#1e3a8a;transform:scale(1.05);box-shadow:0 4px 8px rgba(0,0,0,0.2);}
+    .btn:focus{outline:2px solid #1e40af;outline-offset:2px;}
+    a, button, .btn, .social-btn{transition:color 0.3s ease, transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;}
+
+    /* Section Dividers */
+    section{position:relative;}
+    section::before{content:'';position:absolute;top:0;left:0;width:100%;height:5px;background:linear-gradient(to right, #1e40af, #93c5fd);}
+
+    /* Animations */
+    @keyframes fadeInUp {
+      from {opacity:0;transform:translateY(20px);}
+      to {opacity:1;transform:translateY(0);}
+    }
+
+    /* Responsive */
+    @media (min-width:768px) {
+      .md\:flex-row{flex-direction:row;}
+      .md\:w-1\/2{width:50%;}
+      .md\:gap-8{gap:2rem;}
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="py-6" role="navigation" aria-label="Main navigation">
+    <div class="container flex justify-between items-center">
+      <button class="hamburger" aria-label="Toggle menu">☰</button>
+      <div class="nav-links flex gap-6">
+        <a href="#home" class="text-secondary font-semibold">Home</a>
+        <a href="#about" class="text-secondary font-semibold">About</a>
+        <a href="#projects" class="text-secondary font-semibold">Projects</a>
+        <a href="#contact" class="text-secondary font-semibold">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero" role="banner">
+    <div class="container">
+      <h1 class="text-4xl font-bold">Adam Larkin Construction</h1>
+      <p class="text-lg mt-4">Togher, Dunleer, Co. Louth | Agriculture and Industrial Building Experts</p>
+      <a href="#contact" class="btn mt-4">Get a Quote</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-12" role="region" aria-label="About Us">
+    <div class="container">
+      <h2 class="text-3xl font-bold text-center text-primary mb-8">About Us</h2>
+      <p class="text-secondary text-center">With over 10 years of experience, Adam Larkin Construction delivers high-quality agricultural and industrial building solutions in Co. Louth, specializing in welding and fabrication.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-12 bg-secondary" role="region" aria-label="Projects">
+    <div class="container">
+      <h2 class="text-3xl font-bold text-center text-primary mb-8">Our Projects</h2>
+      <div class="project-grid">
+        <!-- Project 1 -->
+        <div class="project-card fade-in">
+          <img src="https://i.imgur.com/eqy248C.jpeg" alt="Industrial Warehouse Framework" class="project-image" loading="lazy">
+          <div class="project-content">
+            <h3 class="text-2xl font-semibold text-primary mb-2">Industrial Warehouse Framework</h3>
+            <span class="badge">Completed 2024</span>
+            <p class="text-secondary">Our team delivered precision welding and structural integrity, meeting tight deadlines while ensuring safety and durability.</p>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card fade-in">
+          <img src="https://i.imgur.com/CuRmnzo.jpeg" alt="Agricultural Building" class="project-image" loading="lazy">
+          <div class="project-content">
+            <h3 class="text-2xl font-semibold text-primary mb-2">Agricultural Building Construction</h3>
+            <span class="badge">Completed 2023</span>
+            <p class="text-secondary">Built a durable agricultural structure featuring steel framework and industrial-grade materials, tailored for agricultural needs.</p>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card fade-in">
+          <img src="https://i.imgur.com/05uzlkv.jpeg" alt="Completed Shed" class="project-image" loading="lazy">
+          <div class="project-content">
+            <h3 class="text-2xl font-semibold text-primary mb-2">Completed Shed Structure</h3>
+            <span class="badge">Completed 2025</span>
+            <p class="text-secondary">Completed a modern shed structure with steel supports in 2025, providing a functional and weather-resistant space.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-12" role="region" aria-label="Contact Us">
+    <div class="container text-center">
+      <h2 class="text-3xl font-bold text-center text-primary mb-8">Contact Us</h2>
+      <form name="contact" method="POST" data-netlify="true" class="flex flex-col gap-4 mt-4 max-w-md mx-auto">
+        <input type="hidden" name="form-name" value="contact">
+        <input type="text" name="name" placeholder="Your Name" required class="form-input">
+        <input type="email" name="email" placeholder="Your Email" required class="form-input">
+        <textarea name="message" placeholder="Your Message" required class="form-textarea" rows="5"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <p class="mt-4">
+        Or reach us at: 
+        <a href="tel:0863749747" aria-label="Call Adam Larkin Construction">086 374 9747</a> | 
+        <a href="mailto:A.larkinconstruction@gmail.com" aria-label="Email Adam Larkin Construction">A.larkinconstruction@gmail.com</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container text-center">
+      <p>
+        Follow us on 
+        <a href="https://www.facebook.com/profile.php?id=61563855041692" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Follow Adam Larkin Construction on Facebook">
+          <img src="https://img.icons8.com/ios-filled/24/ffffff/facebook-new.png" alt="Facebook Icon" class="social-icon">
+        </a>
+      </p>
+      <hr class="footer-divider">
+      <p class="mt-4">Togher, Dunleer, Co. Louth | Adam Larkin Welding & Fabrication. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script defer>
+    // Hamburger menu toggle
+    document.querySelector('.hamburger').addEventListener('click', () => {
+      const hamburger = document.querySelector('.hamburger');
+      hamburger.classList.toggle('active');
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+
+    // Fade-in animation on scroll
+    document.addEventListener('DOMContentLoaded', () => {
+      const elements = document.querySelectorAll('.fade-in');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, { threshold: 0.1 });
+
+      elements.forEach(element => observer.observe(element));
+
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+
+      // Navigation shadow on scroll
+      window.addEventListener('scroll', () => {
+        const nav = document.querySelector('nav');
+        nav.classList.toggle('scrolled', window.scrollY > 0);
+      });
+
+      // Fallback for IntersectionObserver
+      if (!('IntersectionObserver' in window)) {
+        elements.forEach(el => el.classList.add('visible'));
+      }
+    });
+  </script>
+</body>
+</html>
